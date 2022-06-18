@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [{
+                    "description": "EURUSD",
+                    "proName": "FOREXCOM:EURUSD"
+                }, {
+                    "description": "GBPUSD",
+                    "proName": "FOREXCOM:GBPUSD"
+                }, {
+                    "description": "XAUUSD",
+                    "proName": "FOREXCOM:XAUUSD"
+                }],
+                "showSymbolLogo": true,
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+</body>
+
+</html>
